@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta gttp-equiv="refresh" content="1">
+<head>
+    <meta charset="UTF-8">
+    <title>Account Management</title>
+</head>
+<body>
+<div id="banner">
+    <h1>Account Management</h1>
+    {% with createPort = get_flashed_messages(category_filter=['createPort']) %}
+    {% if createPort %}
+        {% for message in createPort %}
+            <li>{{ message }}</li>
+            <br>
+        {% endfor %}
+    {% endif %}
+    {% endwith %}
+    <p class="lead">Select a Portfolio to view:</p>
+    <form action="/viewPort" method="post">
+        <select name= portfolio>
+            <option value= "{{session['portfolio_name'][0]}}" SELECTED>{{session['portfolio_name'][0]}}</option>
+            {% for portfolio in session['portfolio_name'][1:] %}
+                <option value = "{{portfolio}}">{{portfolio}}</option>
+            {% endfor %}
+        </select>
+        <input type="submit" value="View Portfolio"></input>
+    </form>
+    <br>
+    <br>
+    <p class="lead">Create New Portfolio: (use a unique portfolio name)</p>
+    {% with create = get_flashed_messages(category_filter=['create']) %}
+    {% if create %}
+        {% for message in create %}
+            {{ message }}
+            <br>
+        {% endfor %}
+    {% endif %}
+    {% endwith %}
+    <form action="/createPort" method="post">
+        <input type="text" name="name" value="name"></input>
+        <input type="submit" value="Create Portfolio"></input>
+    </form>
+    <br>
+    <br>
+    <p class="lead">Delete Porfolio:</p>
+    {% with delete = get_flashed_messages(category_filter=['delete']) %}
+    {% if delete %}
+        {% for message in delete %}
+            {{ message }}
+            <br>
+        {% endfor %}
+    {% endif %}
+    {% endwith %}
+    <form action="/delPort" method="post">
+        <input type="text" name="name" value="name"></input>
+        <input type="submit" value="Delete Portfolio"></input>
+    </form>
+</div>
+<br>
+<br>
+<br>
+{% with sub = get_flashed_messages(category_filter=['sub']) %}
+    {% if sub %}
+        {% for message in sub %}
+            {{ message }}
+            <br>
+        {% endfor %}
+    {% endif %}
+{% endwith %}
+{% if session['subscriber'] == 1 %}
+    <form action="/updateSub" method="post">
+        <input type="submit" value="Unsubscribe"></input>
+    </form>
+{% else %}
+    <form action="/updateSub" method="post">
+        <input type="submit" value="Subscribe for a $10 fee"></input>
+    </form>
+{% endif %}
+<br>
+<br>
+<br>
+<form action="/deleteAcc" method="post">
+    <input type="submit" value="DELETE ACCOUNT"></input>
+</form>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<form action="/return" method="post">
+    <input type="submit" value="Return to Home Page"></input>
+</form>
+</body>
+</html>

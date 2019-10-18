@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta gttp-equiv="refresh" content="1">
+<head>
+    <p>Logged in: {{ session['username'] }} ({{sub}})</p>
+    <form action="/viewAcc.html" method="post">
+        <input type="submit" value="View Account"></input>
+    </form>
+    <br>
+    <form action="/logout" method="post">
+        <input type="submit" value="Logout"></input>
+    </form>
+    <meta charset="utf-8">
+    <title>Sean and Wren's CS 373 Final Project</title>
+
+    <link     href='http://fonts.googleapis.com/css?family=Sintony:400,700'     rel='stylesheet' type='text/css'>
+
+    <style type="text/css">
+      body
+      {
+        background-color:#EEE;
+      }
+
+      h1
+      {
+        font-size:48px;
+        margin-top:0;
+        font-family:Arial, sans-serif;
+        text-shadow:2px 0 15px #292929;
+        letter-spacing:4px;
+        text-decoration:none;
+        color:#DDD;
+      }
+
+      #banner
+      {
+        width:500px;
+        height:200px;
+        text-align:center;
+        background-image:url(http://i.imgur.com/MQHYB.jpg);
+        background-repeat:no-repeat;
+        border-radius:5px;
+        margin:90px auto auto;
+        padding:80px 0;
+      }
+
+      .lead
+      {
+        background-color:rgba(255,255,255,0.6);
+        border-radius:3px;
+        box-shadow:rgba(0,0,0,0.2) 0 1px 3px;
+        font-family:Sintony, sans-serif;
+      }
+    </style>
+
+</head>
+
+  <body>
+  <div id="banner">
+      <h1>FINANCIAL ANALYSIS</h1>
+      <p class="lead">We're making financial data accessible to everyone!</p>
+  </div>
+  <div>
+
+      <form action="/sendDisplay" method="post">
+          To display stock data visit:  <br>
+          <input type="submit" value="View Stock Data"></input>
+      </form>
+  </div>
+  <div>
+      <form action="/sendPred" method="post">
+          To display forecast data visit:  <br>
+          <input type="submit" value="View Forecast"></input>
+      </form>
+  </div>
+  <div>
+      <form action="/sendRec" method="post">
+          To view trading strategy visit:   <br>
+          <input type="submit" value="View Trading Strategy"></input>
+      </form>
+  </div>
+  <div>
+      <form action="/funData" method="post">
+          Statistics and Metrics:   <br>
+          <input type="submit" value="View Data"></input>
+      </form>
+  </div>
+  <div>
+      <form action="/userData" method="post">
+          User Portfolio Data:   <br>
+          <input type="submit" value="View Portfolio Data"></input>
+      </form>
+  </div>
+  </body>
+</html>

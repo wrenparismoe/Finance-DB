@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta gttp-equiv="refresh" content="1">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Management</title>
+</head>
+<body>
+<div id="banner">
+    <h1>Portfolio Management</h1>
+    <p class="lead">Select Stock from Portfolio: </p>
+    {% with subs = get_flashed_messages(category_filter=['subs']) %}
+    {% if subs %}
+        {% for message in subs %}
+            {{ message }}
+            <br>
+        {% endfor %}
+    {% endif %}
+    {% endwith %}
+    <form action="/actionDet" method="post">
+        <select name= stock>
+            <option value= "{{tickers[0]}}" SELECTED>{{tickers[0]}}</option>
+            {% for ticker in tickers[1:] %}
+                <option value = "{{ticker}}">{{ticker}}</option>
+            {% endfor %}
+        </select>
+        <select name="action">
+            <option value="display" SELECTED>Display Data</option>
+            <option value="pred">Forecast</option>
+            <option value="rec">Trading Strategy</option>
+        </select>
+        <input type="submit" value="Examine Stock"></input>
+    </form>
+    <br>
+    <br>
+    <p class="lead">Add Stock to Portfolio: (input a ticker)</p>
+    {% with addStock = get_flashed_messages(category_filter=['addStock']) %}
+    {% if addStock %}
+        {% for message in addStock %}
+            {{ message }}
+            <br>
+        {% endfor %}
+    {% endif %}
+    {% endwith %}
+    <form action="/addStock" method="post">
+        <input type="text" name="ticker" value="GOOG">
+        <input type="submit" value="Add Stock"></input>
+    </form>
+    <br>
+    <br>
+    <p class="lead">Delete Stock from Portfolio: (input a ticker)</p>
+    {% with deleteStock = get_flashed_messages(category_filter=['deleteStock']) %}
+    {% if deleteStock %}
+        {% for message in deleteStock %}
+            {{ message }}
+            <br>
+        {% endfor %}
+    {% endif %}
+    {% endwith %}
+    <form action="/delStock" method="post">
+        <input type="text" name="ticker" value="GOOG">
+        <input type="submit" value="Delete Stock"></input>
+    </form>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<form action="/return" method="post">
+    <input type="submit" value="Return to Home Page"></input>
+</form>
+</body>
+</html>

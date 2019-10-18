@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Signup</title>
+</head>
+<body>
+<div id="banner">
+      <h1>USER LOGIN</h1>
+      <p class="lead">You must be logged in to use this service</p>
+</div>
+{% with messages = get_flashed_messages() %}
+    {% if messages %}
+        {% for message in messages %}
+            <h2>{{ message }}</h2>
+        {% endfor %}
+    {% endif %}
+{% endwith %}
+<div id="signinform">
+    <form action="/login" method="post">
+        Username:<br>
+        <input type="text" name="username" value="batman">
+        <br>
+        Password:<br>
+        <input type="text" name="password" value="bat123">
+        <br>
+        <input type="submit" value="Login"></input>
+    </form>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+Don't have an account?
+<form action="/sendSignup" method="post">
+    To access the sign up form visit: <br>
+    <input type="submit" value="Sign Up"></input>
+</form>
+
+
+</body>
+</html>

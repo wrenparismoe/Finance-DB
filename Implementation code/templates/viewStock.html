@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Display Stock Data</title>
+</head>
+<body>
+<div id="banner">
+      <h1>Display Stock Data</h1>
+      <p class="lead">Enter the ticker of the stock you would like to view</p>
+    </div>
+<div id="getTicker">
+    <form action="/getStockData" method="post">
+        Ticker:<br>
+        <input type="text" name="ticker" value="GOOG">
+        <br>
+        <br>
+        Start Date: (leave empty to start from beginning)
+        <p class="tab">
+            Year: XXXX
+            <input type="text" name="syear">
+            <br>
+            Month: XX
+            <input type="text" name="smonth">
+            <br>
+            Day: XX
+            <input type="text" name="sday">
+            <br>
+        </p>
+        End Date: (leave empty to end at current date)
+        <p class="tab">
+            Year: XXXX
+            <input type="text" name="eyear">
+            <br>
+            Month: XX
+            <input type="text" name="emonth">
+            <br>
+            Day: XX
+            <input type="text" name="eday">
+            <br>
+        </p>
+        <input type="submit" value="View Data"></input>
+    </form>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<form action="/return" method="post">
+    <input type="submit" value="Return to Home Page"></input>
+</form>
+
+
+</body>
+</html>

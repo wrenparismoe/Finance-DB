@@ -1,0 +1,437 @@
+Output from def createStockTables(tickers):
+
+Creating table:  GOOG
+Table was successfully created
+Creating table:  AMZN
+Table was successfully created
+Creating table:  AXP
+Table was successfully created
+Creating table:  AAPL
+Table was successfully created
+Creating table:  T
+Table was successfully created
+Creating table:  BAC
+Table was successfully created
+Creating table:  BRK.B
+Unknown database 'brk'
+Creating table:  BBY
+Table was successfully created
+Creating table:  BA
+Table was successfully created
+Creating table:  CBS
+Table was successfully created
+Creating table:  SCHW
+Table was successfully created
+Creating table:  XOM
+Table was successfully created
+Creating table:  FB
+Table was successfully created
+Creating table:  FDX
+Table was successfully created
+Creating table:  GE
+Table was successfully created
+Creating table:  GIS
+Table was successfully created
+Creating table:  GM
+Table was successfully created
+Creating table:  GS
+Table was successfully created
+Creating table:  JNJ
+Table was successfully created
+Creating table:  JPM
+Table was successfully created
+Creating table:  K
+Table was successfully created
+Creating table:  KHC
+Table was successfully created
+Creating table:  KR
+Table was successfully created
+Creating table:  M
+Table was successfully created
+Creating table:  MA
+Table was successfully created
+Creating table:  MCD
+Table was successfully created
+Creating table:  MSFT
+Table was successfully created
+Creating table:  NFLX
+Table was successfully created
+Creating table:  NKE
+Table was successfully created
+Creating table:  JWN
+Table was successfully created
+Creating table:  PYPL
+Table was successfully created
+Creating table:  PM
+Table was successfully created
+Creating table:  SBUX
+Table was successfully created
+Creating table:  TGT
+Table was successfully created
+Creating table:  TXN
+Table was successfully created
+Creating table:  DIS
+Table was successfully created
+Creating table:  TWX
+Table was successfully created
+Creating table:  V
+Table was successfully created
+Creating table:  WMT
+Table was successfully created
+Creating table:  WFC
+Table was successfully created
+Creating table:  WY
+Table was successfully created
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Output from def insertSP500(data):
+
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['GOOG', 'Alphabet Inc Class C', 'Information Technology']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['AMZN', 'Amazon.com Inc.', 'Consumer Discretionary']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['AXP', 'American Express Co', 'Financials']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['AAPL', 'Apple Inc.', 'Information Technology']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['T', 'AT&T Inc.', 'Telecommunication Services']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['BAC', 'Bank of America Corp', 'Financials']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['BRK.B', 'Berkshire Hathaway', 'Financials']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['BBY', 'Best Buy Co. Inc.', 'Consumer Discretionary']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['BA', 'Boeing Company', 'Industrials']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['CBS', 'CBS Corp.', 'Consumer Discretionary']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['SCHW', 'Charles Schwab Corporation', 'Financials']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['XOM', 'Exxon Mobil Corp.', 'Energy']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['FB', 'Facebook, Inc.', 'Information Technology']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['FDX', 'FedEx Corporation', 'Industrials']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['GE', 'General Electric', 'Industrials']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['GIS', 'General Mills', 'Consumer Staples']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['GM', 'General Motors', 'Consumer Discretionary']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['GS', 'Goldman Sachs Group', 'Financials']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['JNJ', 'Johnson & Johnson', 'Health Care']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['JPM', 'JPMorgan Chase & Co.', 'Financials']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['K', 'Kellogg Co.', 'Consumer Staples']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['KHC', 'Kraft Heinz Co', 'Consumer Staples']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['KR', 'Kroger Co.', 'Consumer Staples']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['M', "Macy's Inc.", 'Consumer Discretionary']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['MA', 'Mastercard Inc.', 'Information Technology']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['MCD', "McDonald's Corp.", 'Consumer Discretionary']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['MSFT', 'Microsoft Corp.', 'Information Technology']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['NFLX', 'Netflix Inc.', 'Information Technology']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['NKE', 'Nike', 'Consumer Discretionary']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['JWN', 'Nordstrom', 'Consumer Discretionary']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['PYPL', 'PayPal', 'Information Technology']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['PM', 'Philip Morris International', 'Consumer Staples']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['SBUX', 'Starbucks Corp.', 'Consumer Discretionary']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['TGT', 'Target Corp.', 'Consumer Discretionary']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['TXN', 'Texas Instruments', 'Information Technology']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['DIS', 'The Walt Disney Company', 'Consumer Discretionary']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['TWX', 'Time Warner Inc.', 'Consumer Discretionary']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['V', 'Visa Inc.', 'Information Technology']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['WMT', 'Wal-Mart Stores', 'Consumer Staples']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['WFC', 'Wells Fargo', 'Financials']
+INSERT INTO SP500(ticker, stock_name, sector) VALUES ['WY', 'Weyerhaeuser Corp.', 'Real Estate']
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Part of output from def insertStockData(tickers): -- too long to include full output
+
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 12, 5), 23.33333396911621, 23.41666603088379, 23.08333396911621, 23.08333396911621, 5.321350574493408, 147000.0, 'WY']
+11440
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 12, 4), 23.08333396911621, 23.45833396911621, 23.04166603088379, 23.33333396911621, 5.378987312316894, 106800.0, 'WY']
+11441
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 12, 3), 23.5, 23.5, 22.83333396911621, 23.08333396911621, 5.321350574493408, 96300.0, 'WY']
+11442
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 11, 30), 24.33333396911621, 24.33333396911621, 23.70833396911621, 23.70833396911621, 5.465429306030273, 53400.0, 'WY']
+11443
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 11, 29), 24.5, 24.625, 24.33333396911621, 24.33333396911621, 5.609513759613037, 78600.0, 'WY']
+11444
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 11, 28), 24.25, 24.5, 24.16666603088379, 24.5, 5.6479339599609375, 66900.0, 'WY']
+11445
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 11, 27), 24.45833396911621, 24.5, 24.16666603088379, 24.25, 5.590300559997559, 68700.0, 'WY']
+11446
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 11, 26), 24.83333396911621, 24.83333396911621, 24.20833396911621, 24.45833396911621, 5.6383256912231445, 80400.0, 'WY']
+11447
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 11, 23), 24.875, 24.95833396911621, 24.875, 24.95833396911621, 5.753589153289795, 61200.0, 'WY']
+11448
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 11, 21), 24.5, 25.25, 24.5, 24.875, 5.734382152557373, 73800.0, 'WY']
+11449
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 11, 20), 24.04166603088379, 24.41666603088379, 23.875, 24.41666603088379, 5.628722667694092, 87600.0, 'WY']
+11450
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 11, 19), 24.5, 24.5, 23.83333396911621, 24.04166603088379, 5.542274475097656, 33600.0, 'WY']
+11451
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 11, 16), 24.54166603088379, 24.95833396911621, 24.5, 24.625, 5.676746368408203, 109200.0, 'WY']
+11452
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 11, 15), 24.54166603088379, 24.66666603088379, 24.33333396911621, 24.54166603088379, 5.65753698348999, 79500.0, 'WY']
+11453
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 11, 14), 24.875, 24.875, 24.25, 24.54166603088379, 5.65753698348999, 73800.0, 'WY']
+11454
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 11, 13), 24.83333396911621, 24.95833396911621, 24.54166603088379, 24.875, 5.734382152557373, 147600.0, 'WY']
+11455
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 11, 12), 24.45833396911621, 24.875, 24.41666603088379, 24.83333396911621, 5.7247772216796875, 80100.0, 'WY']
+11456
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 11, 9), 25.08333396911621, 25.25, 24.45833396911621, 24.45833396911621, 5.6383256912231445, 105300.0, 'WY']
+11457
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 11, 8), 24.70833396911621, 25.08333396911621, 24.70833396911621, 25.08333396911621, 5.782402038574219, 73500.0, 'WY']
+11458
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 11, 7), 24.29166603088379, 24.54166603088379, 24.29166603088379, 24.54166603088379, 5.65753698348999, 52800.0, 'WY']
+11459
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 11, 6), 23.70833396911621, 24.41666603088379, 23.70833396911621, 24.16666603088379, 5.5710883140563965, 120900.0, 'WY']
+11460
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 11, 5), 23.91666603088379, 24.20833396911621, 23.66666603088379, 23.70833396911621, 5.465429306030273, 82800.0, 'WY']
+11461
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 11, 2), 24.66666603088379, 24.66666603088379, 23.83333396911621, 23.91666603088379, 5.51345682144165, 69900.0, 'WY']
+11462
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 11, 1), 24.95833396911621, 25.04166603088379, 24.66666603088379, 24.66666603088379, 5.686347007751465, 53700.0, 'WY']
+11463
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 10, 31), 25.20833396911621, 25.20833396911621, 24.95833396911621, 24.95833396911621, 5.753589153289795, 81900.0, 'WY']
+11464
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 10, 30), 25.66666603088379, 25.66666603088379, 25.25, 25.29166603088379, 5.8304314613342285, 100500.0, 'WY']
+11465
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 10, 29), 25.33333396911621, 25.91666603088379, 25.33333396911621, 25.66666603088379, 5.916880130767822, 87000.0, 'WY']
+11466
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 10, 26), 25.25, 25.5, 25.20833396911621, 25.33333396911621, 5.840041160583496, 72600.0, 'WY']
+11467
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 10, 25), 25.25, 25.5, 25.16666603088379, 25.25, 5.820828914642334, 66000.0, 'WY']
+11468
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 10, 24), 24.91666603088379, 25.29166603088379, 24.875, 25.25, 5.820828914642334, 56100.0, 'WY']
+11469
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 10, 23), 24.66666603088379, 24.95833396911621, 24.33333396911621, 24.91666603088379, 5.743988037109375, 85500.0, 'WY']
+11470
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 10, 22), 24.70833396911621, 24.70833396911621, 24.5, 24.66666603088379, 5.686347007751465, 26100.0, 'WY']
+11471
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 10, 19), 25.70833396911621, 25.70833396911621, 24.91666603088379, 24.95833396911621, 5.753589153289795, 83100.0, 'WY']
+11472
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 10, 18), 25.70833396911621, 26.08333396911621, 25.66666603088379, 25.83333396911621, 5.955306529998779, 41400.0, 'WY']
+11473
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 10, 17), 26.08333396911621, 26.08333396911621, 25.70833396911621, 25.70833396911621, 5.926488399505615, 50400.0, 'WY']
+11474
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 10, 16), 26.5, 26.5, 25.70833396911621, 26.08333396911621, 6.012932777404785, 96000.0, 'WY']
+11475
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 10, 15), 26.58333396911621, 26.58333396911621, 26.20833396911621, 26.5, 6.108985900878906, 62400.0, 'WY']
+11476
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 10, 12), 26.70833396911621, 27.41666603088379, 26.5, 26.66666603088379, 6.147408962249756, 129600.0, 'WY']
+11477
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 10, 11), 26.33333396911621, 26.70833396911621, 26.33333396911621, 26.70833396911621, 6.157012462615967, 56100.0, 'WY']
+11478
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 10, 10), 25.58333396911621, 25.91666603088379, 25.54166603088379, 25.91666603088379, 5.974510669708252, 95400.0, 'WY']
+11479
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 10, 9), 25.5, 25.66666603088379, 25.5, 25.58333396911621, 5.897666931152344, 99900.0, 'WY']
+11480
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 10, 8), 24.91666603088379, 25.20833396911621, 24.66666603088379, 25.20833396911621, 5.811223030090332, 121200.0, 'WY']
+11481
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 10, 5), 24.70833396911621, 24.95833396911621, 24.54166603088379, 24.91666603088379, 5.743988037109375, 78000.0, 'WY']
+11482
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 10, 4), 24.70833396911621, 25.08333396911621, 24.66666603088379, 24.70833396911621, 5.695959568023682, 204000.0, 'WY']
+11483
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 10, 3), 24.54166603088379, 24.95833396911621, 24.54166603088379, 24.70833396911621, 5.695959568023682, 129300.0, 'WY']
+11484
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 10, 2), 23.66666603088379, 23.95833396911621, 23.66666603088379, 23.95833396911621, 5.52306318283081, 75000.0, 'WY']
+11485
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 10, 1), 23.41666603088379, 23.45833396911621, 23.25, 23.41666603088379, 5.398195266723633, 42900.0, 'WY']
+11486
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 9, 28), 23.5, 23.5, 23.33333396911621, 23.41666603088379, 5.398195266723633, 44700.0, 'WY']
+11487
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 9, 27), 23.0, 23.70833396911621, 23.0, 23.54166603088379, 5.427011013031006, 132600.0, 'WY']
+11488
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 9, 26), 22.70833396911621, 23.08333396911621, 22.70833396911621, 23.0, 5.302138805389404, 72000.0, 'WY']
+11489
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 9, 25), 23.04166603088379, 23.04166603088379, 22.70833396911621, 22.70833396911621, 5.234902381896973, 64500.0, 'WY']
+11490
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 9, 24), 23.29166603088379, 23.29166603088379, 23.16666603088379, 23.16666603088379, 5.340561866760254, 143700.0, 'WY']
+11491
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 9, 21), 23.45833396911621, 23.45833396911621, 23.20833396911621, 23.33333396911621, 5.378987312316894, 58800.0, 'WY']
+11492
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 9, 20), 23.20833396911621, 23.66666603088379, 23.20833396911621, 23.54166603088379, 5.427011013031006, 159000.0, 'WY']
+11493
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 9, 19), 22.25, 23.16666603088379, 22.25, 23.16666603088379, 5.340561866760254, 66600.0, 'WY']
+11494
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 9, 18), 22.33333396911621, 22.33333396911621, 22.08333396911621, 22.25, 5.129244804382324, 152700.0, 'WY']
+11495
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 9, 17), 22.16666603088379, 22.5, 22.16666603088379, 22.33333396911621, 5.14845609664917, 114300.0, 'WY']
+11496
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 9, 14), 21.79166603088379, 22.08333396911621, 21.70833396911621, 22.08333396911621, 5.090824127197266, 74400.0, 'WY']
+11497
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 9, 13), 21.70833396911621, 22.08333396911621, 21.70833396911621, 21.79166603088379, 5.023585319519043, 126900.0, 'WY']
+11498
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 9, 12), 22.29166603088379, 22.29166603088379, 21.625, 21.70833396911621, 5.004375457763672, 141600.0, 'WY']
+11499
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 9, 11), 22.54166603088379, 22.54166603088379, 22.04166603088379, 22.33333396911621, 5.14845609664917, 135000.0, 'WY']
+11500
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 9, 10), 22.70833396911621, 22.70833396911621, 22.54166603088379, 22.625, 5.215692520141602, 120900.0, 'WY']
+11501
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 9, 7), 22.70833396911621, 22.70833396911621, 22.625, 22.70833396911621, 5.234902381896973, 87600.0, 'WY']
+11502
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 9, 6), 22.625, 22.83333396911621, 22.625, 22.79166603088379, 5.254114627838135, 61200.0, 'WY']
+11503
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 9, 5), 22.54166603088379, 22.79166603088379, 22.54166603088379, 22.625, 5.215692520141602, 129000.0, 'WY']
+11504
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 9, 4), 22.79166603088379, 22.79166603088379, 22.16666603088379, 22.5, 5.186875343322754, 104100.0, 'WY']
+11505
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 8, 31), 23.0, 23.0, 22.70833396911621, 22.83333396911621, 5.263718605041504, 28800.0, 'WY']
+11506
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 8, 30), 23.08333396911621, 23.25, 22.70833396911621, 23.08333396911621, 5.321350574493408, 60000.0, 'WY']
+11507
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 8, 29), 23.08333396911621, 23.29166603088379, 23.04166603088379, 23.08333396911621, 5.321350574493408, 73500.0, 'WY']
+11508
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 8, 28), 23.16666603088379, 23.33333396911621, 23.04166603088379, 23.08333396911621, 5.321350574493408, 122400.0, 'WY']
+11509
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 8, 27), 23.16666603088379, 23.16666603088379, 23.04166603088379, 23.16666603088379, 5.340561866760254, 66000.0, 'WY']
+11510
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 8, 24), 23.29166603088379, 23.29166603088379, 22.875, 23.25, 5.359769821166992, 189000.0, 'WY']
+11511
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 8, 23), 22.625, 23.33333396911621, 22.625, 23.33333396911621, 5.378987312316894, 109200.0, 'WY']
+11512
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 8, 22), 22.54166603088379, 22.625, 22.5, 22.54166603088379, 5.196479320526123, 50700.0, 'WY']
+11513
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 8, 21), 22.54166603088379, 22.70833396911621, 22.54166603088379, 22.54166603088379, 5.196479320526123, 45900.0, 'WY']
+11514
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 8, 20), 22.66666603088379, 22.66666603088379, 22.41666603088379, 22.5, 5.186875343322754, 83700.0, 'WY']
+11515
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 8, 17), 22.83333396911621, 22.83333396911621, 22.66666603088379, 22.70833396911621, 5.234902381896973, 75000.0, 'WY']
+11516
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 8, 16), 23.0, 23.20833396911621, 22.875, 22.91666603088379, 5.282930374145508, 48600.0, 'WY']
+11517
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 8, 15), 22.70833396911621, 23.08333396911621, 22.66666603088379, 23.0, 5.302138805389404, 81600.0, 'WY']
+11518
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 8, 14), 23.41666603088379, 23.41666603088379, 22.66666603088379, 22.70833396911621, 5.234902381896973, 97500.0, 'WY']
+11519
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 8, 13), 23.66666603088379, 23.66666603088379, 23.5, 23.5, 5.417406558990478, 116100.0, 'WY']
+11520
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 8, 10), 23.45833396911621, 23.66666603088379, 23.33333396911621, 23.66666603088379, 5.455827713012695, 169800.0, 'WY']
+11521
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 8, 9), 23.25, 23.45833396911621, 23.25, 23.45833396911621, 5.407799243927002, 252300.0, 'WY']
+11522
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 8, 8), 23.0, 23.33333396911621, 23.0, 23.16666603088379, 5.340561866760254, 193500.0, 'WY']
+11523
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 8, 7), 22.54166603088379, 22.83333396911621, 22.54166603088379, 22.83333396911621, 5.263718605041504, 71700.0, 'WY']
+11524
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 8, 6), 22.0, 22.5, 22.0, 22.45833396911621, 5.177271366119385, 159000.0, 'WY']
+11525
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 8, 3), 21.66666603088379, 22.0, 21.66666603088379, 21.95833396911621, 5.062010288238525, 75300.0, 'WY']
+11526
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 8, 2), 21.66666603088379, 21.70833396911621, 21.58333396911621, 21.66666603088379, 4.994769096374512, 112500.0, 'WY']
+11527
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 8, 1), 21.45833396911621, 21.79166603088379, 21.41666603088379, 21.66666603088379, 4.994769096374512, 77400.0, 'WY']
+11528
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 7, 31), 21.66666603088379, 21.66666603088379, 21.41666603088379, 21.45833396911621, 4.946741580963135, 128400.0, 'WY']
+11529
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 7, 30), 21.91666603088379, 21.91666603088379, 21.5, 21.70833396911621, 5.004375457763672, 125700.0, 'WY']
+11530
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 7, 27), 22.41666603088379, 22.41666603088379, 21.91666603088379, 22.0, 5.071612358093262, 70500.0, 'WY']
+11531
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 7, 26), 22.54166603088379, 22.83333396911621, 22.5, 22.5, 5.186875343322754, 183600.0, 'WY']
+11532
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 7, 25), 21.625, 22.54166603088379, 21.625, 22.54166603088379, 5.196479320526123, 235200.0, 'WY']
+11533
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 7, 24), 21.54166603088379, 21.70833396911621, 21.5, 21.625, 4.985163688659668, 126600.0, 'WY']
+11534
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 7, 23), 21.45833396911621, 21.66666603088379, 21.45833396911621, 21.54166603088379, 4.965954303741455, 102600.0, 'WY']
+11535
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 7, 20), 21.16666603088379, 21.45833396911621, 21.16666603088379, 21.45833396911621, 4.946741580963135, 95100.0, 'WY']
+11536
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 7, 19), 21.04166603088379, 21.33333396911621, 20.875, 21.16666603088379, 4.87950325012207, 135000.0, 'WY']
+11537
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 7, 18), 21.16666603088379, 21.25, 21.04166603088379, 21.04166603088379, 4.8506903648376465, 51000.0, 'WY']
+11538
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 7, 17), 21.16666603088379, 21.33333396911621, 21.16666603088379, 21.16666603088379, 4.87950325012207, 144000.0, 'WY']
+11539
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 7, 16), 20.95833396911621, 21.25, 20.91666603088379, 21.08333396911621, 4.860294818878174, 46500.0, 'WY']
+11540
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 7, 13), 21.33333396911621, 21.33333396911621, 20.83333396911621, 20.95833396911621, 4.831475734710693, 64500.0, 'WY']
+11541
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 7, 12), 21.45833396911621, 21.5, 21.16666603088379, 21.33333396911621, 4.917924404144287, 142800.0, 'WY']
+11542
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 7, 11), 21.33333396911621, 21.58333396911621, 21.33333396911621, 21.45833396911621, 4.946741580963135, 169200.0, 'WY']
+11543
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 7, 10), 20.95833396911621, 21.45833396911621, 20.95833396911621, 21.0, 4.8410844802856445, 81600.0, 'WY']
+11544
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 7, 9), 20.29166603088379, 20.66666603088379, 20.29166603088379, 20.58333396911621, 4.745028495788574, 39600.0, 'WY']
+11545
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 7, 6), 20.16666603088379, 20.29166603088379, 20.16666603088379, 20.29166603088379, 4.677794933319092, 32400.0, 'WY']
+11546
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 7, 5), 20.0, 20.25, 19.79166603088379, 20.16666603088379, 4.648978233337402, 60900.0, 'WY']
+11547
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 7, 3), 19.625, 20.04166603088379, 19.625, 20.0, 4.610556602478027, 63000.0, 'WY']
+11548
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 7, 2), 19.58333396911621, 19.66666603088379, 19.45833396911621, 19.625, 4.524106025695801, 39300.0, 'WY']
+11549
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 6, 29), 19.58333396911621, 19.625, 19.41666603088379, 19.58333396911621, 4.5145039558410645, 75300.0, 'WY']
+11550
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 6, 28), 19.33333396911621, 19.58333396911621, 19.33333396911621, 19.58333396911621, 4.5145039558410645, 21900.0, 'WY']
+11551
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 6, 27), 19.25, 19.29166603088379, 19.0, 19.25, 4.4376606941223145, 86400.0, 'WY']
+11552
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 6, 26), 19.08333396911621, 19.25, 19.0, 19.25, 4.4376606941223145, 18900.0, 'WY']
+11553
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 6, 25), 19.16666603088379, 19.29166603088379, 19.08333396911621, 19.08333396911621, 4.399240493774414, 16800.0, 'WY']
+11554
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 6, 22), 19.25, 19.66666603088379, 19.16666603088379, 19.16666603088379, 4.418449878692627, 43500.0, 'WY']
+11555
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 6, 21), 19.33333396911621, 19.33333396911621, 19.16666603088379, 19.25, 4.4376606941223145, 118200.0, 'WY']
+11556
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 6, 20), 19.29166603088379, 19.33333396911621, 19.08333396911621, 19.33333396911621, 4.456868171691894, 91200.0, 'WY']
+11557
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 6, 19), 19.25, 19.45833396911621, 18.95833396911621, 19.29166603088379, 4.447265625, 88800.0, 'WY']
+11558
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 6, 18), 19.66666603088379, 19.66666603088379, 19.16666603088379, 19.25, 4.4376606941223145, 131400.0, 'WY']
+11559
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 6, 15), 19.70833396911621, 19.70833396911621, 19.58333396911621, 19.66666603088379, 4.533712387084961, 26400.0, 'WY']
+11560
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 6, 14), 19.79166603088379, 19.79166603088379, 19.66666603088379, 19.79166603088379, 4.562530040740967, 138900.0, 'WY']
+11561
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 6, 13), 20.08333396911621, 20.29166603088379, 19.625, 19.83333396911621, 4.57213544845581, 80400.0, 'WY']
+11562
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 6, 12), 19.83333396911621, 20.08333396911621, 19.70833396911621, 20.08333396911621, 4.629767417907715, 144600.0, 'WY']
+11563
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 6, 11), 19.66666603088379, 19.91666603088379, 19.66666603088379, 19.83333396911621, 4.57213544845581, 39600.0, 'WY']
+11564
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 6, 8), 19.08333396911621, 19.54166603088379, 19.08333396911621, 19.54166603088379, 4.5048956871032715, 83400.0, 'WY']
+11565
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 6, 7), 18.875, 19.16666603088379, 18.875, 19.0, 4.38002872467041, 47100.0, 'WY']
+11566
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 6, 6), 18.91666603088379, 19.08333396911621, 18.83333396911621, 18.83333396911621, 4.341604709625244, 27000.0, 'WY']
+11567
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 6, 5), 18.83333396911621, 19.16666603088379, 18.70833396911621, 18.91666603088379, 4.360818386077881, 85500.0, 'WY']
+11568
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 6, 4), 18.95833396911621, 19.0, 18.83333396911621, 18.83333396911621, 4.341604709625244, 31800.0, 'WY']
+11569
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 6, 1), 18.83333396911621, 19.16666603088379, 18.70833396911621, 18.95833396911621, 4.370423793792725, 70800.0, 'WY']
+11570
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 5, 31), 19.16666603088379, 19.16666603088379, 18.83333396911621, 18.83333396911621, 4.341604709625244, 82800.0, 'WY']
+11571
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 5, 30), 19.33333396911621, 19.33333396911621, 19.20833396911621, 19.29166603088379, 4.447265625, 16800.0, 'WY']
+11572
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 5, 29), 19.83333396911621, 19.83333396911621, 19.33333396911621, 19.33333396911621, 4.456868171691894, 25500.0, 'WY']
+11573
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 5, 25), 19.66666603088379, 20.08333396911621, 19.66666603088379, 19.95833396911621, 4.600952625274658, 82800.0, 'WY']
+11574
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 5, 24), 19.16666603088379, 19.625, 19.16666603088379, 19.625, 4.524106025695801, 45300.0, 'WY']
+11575
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 5, 23), 18.91666603088379, 19.20833396911621, 18.91666603088379, 19.16666603088379, 4.418449878692627, 91500.0, 'WY']
+11576
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 5, 22), 18.875, 19.08333396911621, 18.875, 18.875, 4.351211071014404, 51300.0, 'WY']
+11577
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 5, 21), 19.08333396911621, 19.08333396911621, 18.79166603088379, 18.83333396911621, 4.341604709625244, 138300.0, 'WY']
+11578
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 5, 18), 19.25, 19.25, 18.875, 19.16666603088379, 4.418449878692627, 85200.0, 'WY']
+11579
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 5, 17), 19.29166603088379, 19.33333396911621, 19.04166603088379, 19.29166603088379, 4.447265625, 56100.0, 'WY']
+11580
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 5, 16), 19.08333396911621, 19.29166603088379, 19.08333396911621, 19.29166603088379, 4.447265625, 39900.0, 'WY']
+11581
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 5, 15), 18.875, 19.08333396911621, 18.66666603088379, 19.08333396911621, 4.399240493774414, 90300.0, 'WY']
+11582
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 5, 14), 18.91666603088379, 18.91666603088379, 18.66666603088379, 18.875, 4.351211071014404, 46200.0, 'WY']
+11583
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 5, 11), 19.41666603088379, 19.41666603088379, 18.91666603088379, 19.16666603088379, 4.418449878692627, 76500.0, 'WY']
+11584
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 5, 10), 19.66666603088379, 19.66666603088379, 19.41666603088379, 19.41666603088379, 4.476079940795898, 61800.0, 'WY']
+11585
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 5, 9), 19.58333396911621, 19.79166603088379, 19.54166603088379, 19.66666603088379, 4.533712387084961, 66900.0, 'WY']
+11586
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 5, 8), 19.58333396911621, 19.58333396911621, 19.41666603088379, 19.58333396911621, 4.5145039558410645, 80100.0, 'WY']
+11587
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 5, 7), 19.66666603088379, 19.70833396911621, 19.54166603088379, 19.58333396911621, 4.5145039558410645, 55800.0, 'WY']
+11588
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 5, 4), 19.58333396911621, 19.95833396911621, 19.58333396911621, 19.66666603088379, 4.533712387084961, 256800.0, 'WY']
+11589
+INSERT INTO WY (eod, open_price, high_price, low_price, close_price, adjclose, volume, ticker) VALUES [datetime.date(1973, 5, 3), 18.83333396911621, 19.33333396911621, 18.45833396911621, 19.08333396911621, 4.399240493774414, 116700.0, 'WY']
+Done Inserting Data For WY

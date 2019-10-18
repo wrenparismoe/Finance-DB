@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Display Recommendation Data</title>
+    <style type="text/css">
+        <!--
+        .tab { margin-right: 40px; }
+        -->
+    </style>
+</head>
+<body>
+<div id="banner">
+    <h1>Display Trading Strategy Data</h1>
+    {% with subscribe = get_flashed_messages(category_filter=['subscribe']) %}
+    {% if subscribe %}
+        {% for message in subscribe %}
+            {{ message }}
+            <br>
+        {% endfor %}
+    {% endif %}
+    {% endwith %}
+    <p class="lead">Enter the ticker of the stock you would like to see a trading strategy for</p>
+</div>
+<div id="getTicker">
+    <form action="/getRecData" method="post">
+        Ticker:<br>
+        <input type="text" name="ticker" value="GOOG">
+        <br>
+        <input type="submit" value="View Trade Strategy"></input>
+    </form>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<form action="/return" method="post">
+    <input type="submit" value="Return to Home Page"></input>
+</form>
+
+
+</body>
+</html>

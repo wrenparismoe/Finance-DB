@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Database Users</title>
+  </head>
+  <body>
+    <p>Here are all the users that have signed up during this session:</p>
+    <ul>
+      {% for user in userslist %}
+      <li>{{ user }}</li>
+      {% endfor %}
+    </ul>
+    <p>There you go!</p>
+  </body>
+</html>

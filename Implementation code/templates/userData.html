@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Portfolio Data</title>
+</head>
+<body>
+<div id="banner">
+    <h1>USER PORTFOLIO ANALYSIS</h1>
+    <p class="lead">Check out the stocks in user's portfolios!</p>
+</div>
+<div>
+    <h2>Portfolio Data: </h2>
+    <table border="1">
+        <th>Users</th>
+        <th>Portfolio</th>
+        <th>Stock</th>
+    {% for i in range(0, length+1) %}
+        <tr>
+            <td>{{portfolioData[0][i]}}</td>
+            <td>{{portfolioData[1][i]}}</td>
+            <td>{{portfolioData[2][i]}}</td>
+        </tr>
+    {% endfor %}
+    </table>
+</div>
+</body>
+</html>

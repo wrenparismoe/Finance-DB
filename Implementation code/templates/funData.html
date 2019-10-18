@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fun Data</title>
+</head>
+<body>
+<div id="banner">
+    <h1>FUN DATA ANALYSIS</h1>
+    <p class="lead">Check out these interesting statistics and metrics!</p>
+</div>
+<div>
+    <h2>The Largest and Smallest Percent Changes from the last trading day: </h2><br>
+    {% for i in range(0, 3) %}
+        {{pct_changes[i]}}
+        <br>
+    {% endfor %}
+</div>
+<br>
+<br>
+<br>
+<div>
+    <h2>The Most Popular Stocks in User Portfolios: </h2><br>
+    {% for i in range(0, 2) %}
+        {{mostPop[i]}}
+        <br>
+    {% endfor %}
+</div>
+<br>
+<br>
+<br>
+<div>
+    <h2>The Market Shares between Sectors in the S&P500: </h2><br>
+    {% for i in range(0, lenMS+1) %}
+        {{marketShares[i]}}
+        <br>
+    {% endfor %}
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<form action="/return" method="post">
+    <input type="submit" value="Return to Home Page"></input>
+</form>
+</body>
+</html>

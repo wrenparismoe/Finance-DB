@@ -21,7 +21,7 @@ Implementing this code builds a 2-Dimensional DataFrame for all stocks listed in
 # Implementation:
 
 1. In SQLconnector.py and flaskWebsite.py: 
-    Change all instances of :
+    Change all instances of:
     ```python
     conn = sqlconnection.connect(​user​=​'root'​, ​password​=​''​, ​host​=​'127.0.0.1'​, database​=​'financedb'​) 
     ```

@@ -21,22 +21,22 @@ Implementing this code builds a 2-Dimensional DataFrame for all stocks listed in
 # Implementation:
 
 1. In SQLconnector.py and flaskWebsite.py: 
-  Change all instances of :
-  ```python
-  conn = sqlconnection.connect(​user​=​'root'​, ​password​=​''​, ​host​=​'127.0.0.1'​, database​=​'financedb'​) 
-  ```
-  To: your username, password, and host for the MySQL database 
+    Change all instances of :
+    ```python
+    conn = sqlconnection.connect(​user​=​'root'​, ​password​=​''​, ​host​=​'127.0.0.1'​, database​=​'financedb'​) 
+    ```
+    To: your username, password, and host for the MySQL database 
  
-  Change all CSV paths:
-  ```python
-  data = pd.read_csv(​"C:/Users/wrenp/Documents/Spring 2019/Databases/Final Project/S&P500.csv"​, ​names​=[​"ticker"​, ​"stock_name"​, ​"sector"​]) 
+    Change all CSV paths:
+    ```python
+    data = pd.read_csv(​"C:/Users/wrenp/Documents/Spring 2019/Databases/Final Project/S&P500.csv"​, ​names​=[​"ticker"​, ​"stock_name"​, ​"sector"​]) 
   
-  users = pd.read_csv(​"C:/Users/wrenp/Documents/Spring 2019/Databases/Final Project/usersimporttest.csv"​, ​names​=[​"username"​, ​"password"​, ​"fname"​, ​"lname"​, ​"email"​, "subscriber"​]) 
-  portfolio = pd.read_csv(​"C:/Users/wrenp/Documents/Spring 2019/Databases/Final Project/portfolioimporttest.csv"​, ​names​=[​"portfolio_name"​]) 
-  has_portfolio = pd.read_csv(​"C:/Users/wrenp/Documents/Spring 2019/Databases/Final Project/has_portfolioimporttest.csv"​, ​names​=[​"login_id"​,​"portfolio_id"​]) 
-  has_stock = pd.read_csv(​"C:/Users/wrenp/Documents/Spring 2019/Databases/Final Project/has_stockimporttest.csv"​, ​names​=[​"portfolio_id"​, ​"ticker"​]) 
-  ```
-  To: your path for the CSVs -- (users, portfolio, has_portfolio, has_stock are only needed if inital test data is wanted in the database)
+    users = pd.read_csv(​"C:/Users/wrenp/Documents/Spring 2019/Databases/Final Project/usersimporttest.csv"​, ​names​=[​"username"​, ​"password"​, ​"fname"​, ​"lname"​, ​"email"​, "subscriber"​]) 
+    portfolio = pd.read_csv(​"C:/Users/wrenp/Documents/Spring 2019/Databases/Final Project/portfolioimporttest.csv"​, ​names​=[​"portfolio_name"​]) 
+    has_portfolio = pd.read_csv(​"C:/Users/wrenp/Documents/Spring 2019/Databases/Final Project/has_portfolioimporttest.csv"​, ​names​=[​"login_id"​,​"portfolio_id"​]) 
+    has_stock = pd.read_csv(​"C:/Users/wrenp/Documents/Spring 2019/Databases/Final Project/has_stockimporttest.csv"​, ​names​=[​"portfolio_id"​, ​"ticker"​]) 
+    ```
+    To: your path for the CSVs -- (users, portfolio, has_portfolio, has_stock are only needed if inital test data is wanted in the database)
   
 2. Install all needed external packages/modules listed at the top of SQLconnector.py and flaskWebsite.py using anaconda or pip into your environment such as: 
 

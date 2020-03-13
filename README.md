@@ -1,5 +1,5 @@
 # finance-db
-A basic financial analysis service to make stock data and evaluation techniques accessible and comprehensible. Offered as a website, finance-db provides the tools needed to analyze the stock information of S&P 500 companies enabling individuals to make informed investments.
+A basic financial analysis service to make stock data and evaluation techniques accessible and comprehensible. Offered as a website, finance-db provides the tools needed to analyze the stock information of S&P 500 companies enabling individuals to make informed investments.  
 Finance-db is backed an SQL database containing the complete stock history of the S&amp;P 500 with a basic web interface implemented with flask in python and html allowing users to interact with financial data and analysis techniques.
 
 ## Data Retreival Strategy

@@ -20,7 +20,7 @@ Implementing this code builds a 2-Dimensional DataFrame for all stocks listed in
 
 # Implementation:
 
-1. In SQLconnector.py and flaskWebsite.py: 
+**1.** In SQLconnector.py and flaskWebsite.py: 
     Change all instances of:
     ```python
     conn = sqlconnection.connect(​user​=​'root'​, ​password​=​''​, ​host​=​'127.0.0.1'​, database​=​'financedb'​) 
@@ -38,7 +38,7 @@ Implementing this code builds a 2-Dimensional DataFrame for all stocks listed in
     ```
     To: your path for the CSVs -- (users, portfolio, has_portfolio, has_stock are only needed if inital test data is wanted in the database)
   
-2. Install all needed external packages/modules listed at the top of SQLconnector.py and flaskWebsite.py using anaconda or pip into your environment such as: 
+**2.** Install all needed external packages/modules listed at the top of SQLconnector.py and flaskWebsite.py using anaconda or pip into your environment such as: 
 
     pip install numpy 
     
@@ -48,27 +48,27 @@ Implementing this code builds a 2-Dimensional DataFrame for all stocks listed in
     
     Etc. 
   
-3. Confirm the mysql_connector is connected and working 
+**3.** Confirm the mysql_connector is connected and working 
 
-4. Run setup code in this order to build Database (running SQLconnector.py before financedb.sql will result in errors) 
+**4.** Run setup code in this order to build Database (running SQLconnector.py before financedb.sql will result in errors) 
 
-    a. Financedb.sql, then connect to the virtual server 
+    **a.** Financedb.sql, then connect to the virtual server 
     
-    b. SQLconnector.py 
+    **b.** SQLconnector.py 
     
-    *Note, running the default SP500.csv (instead of SP500test.csv) can take up to 30 minutes or more to import all 4 million rows of stock data. There was no way around this. We tried.*
+    *Running the default SP500.csv (instead of SP500test.csv) can take up to 30 minutes or more to import all 4 million rows of stock data. There was no way around this. We tried.*
     
-5. Place flaskWebsite.py, a ‘static’ folder, and a ‘templates’ folder in the same project folder 
+**5.** Place flaskWebsite.py, a ‘static’ folder, and a ‘templates’ folder in the same project folder 
 
-6. Run flaskWebsite.py 
+**6.** Run flaskWebsite.py 
 
-    a. If the database has not been updated with data from the latest stock market closing date, updateStockData() will run before the website application is initialized 
+    **a.** If the database has not been updated with data from the latest stock market closing date, updateStockData() will run before the website application is initialized 
     
-    b. Only run importUsers(users), importPortfolio(portfolio), importHas_Portfolio(has_portfolio), and importHas_Stock(has_stock) if initial test data is wanted
+    **b.** Only run importUsers(users), importPortfolio(portfolio), importHas_Portfolio(has_portfolio), and importHas_Stock(has_stock) if initial test data is wanted
     
-7. Visit ​http://127.0.0.1:5000/​ (unless your host address is different) to open the web application 
+**7.** Visit ​http://127.0.0.1:5000/​ (unless your host address is different) to open the web application 
 
-    Notes: 
+    Remarks: 
     
       a. View Trading Strategy is for subscribers only 
       

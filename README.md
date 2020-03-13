@@ -52,9 +52,9 @@ Implementing this code builds a 2-Dimensional DataFrame for all stocks listed in
 
 **4.** Run setup code in this order to build Database (running SQLconnector.py before financedb.sql will result in errors) 
 
-    **a.** Financedb.sql, then connect to the virtual server 
+    a. Financedb.sql, then connect to the virtual server 
     
-    **b.** SQLconnector.py 
+    b. SQLconnector.py 
     
     *Running the default SP500.csv (instead of SP500test.csv) can take up to 30 minutes or more to import all 4 million rows of stock data. There was no way around this. We tried.*
     
@@ -62,13 +62,13 @@ Implementing this code builds a 2-Dimensional DataFrame for all stocks listed in
 
 **6.** Run flaskWebsite.py 
 
-    **a.** If the database has not been updated with data from the latest stock market closing date, updateStockData() will run before the website application is initialized 
+    a. If the database has not been updated with data from the latest stock market closing date, updateStockData() will run before the website application is initialized 
     
-    **b.** Only run importUsers(users), importPortfolio(portfolio), importHas_Portfolio(has_portfolio), and importHas_Stock(has_stock) if initial test data is wanted
+    b. Only run importUsers(users), importPortfolio(portfolio), importHas_Portfolio(has_portfolio), and importHas_Stock(has_stock) if initial test data is wanted
     
 **7.** Visit ​http://127.0.0.1:5000/​ (unless your host address is different) to open the web application 
 
-    Remarks: 
+Remarks: 
     
       a. View Trading Strategy is for subscribers only 
       
